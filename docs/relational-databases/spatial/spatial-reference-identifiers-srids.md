@@ -34,6 +34,9 @@ manager: "jhubbard"
 > [!NOTE]  
 >  The spatial reference identification system is defined by the [European Petroleum Survey Group (EPSG)](http://go.microsoft.com/fwlink/?LinkId=99349) standard, which is a set of standards developed for cartography, surveying, and geodetic data storage. This standard is owned by the Oil and Gas Producers (OGP) Surveying and Positioning Committee.  
   
+  On Microsoft SQL Server 2012 or newer A a list of all supported SRIDs can be queried by executing
+  `SELECT * FROM master.sys.spatial_reference_systems`
+  
 ## See Also  
  [Spatial Data Types Overview](../../relational-databases/spatial/spatial-data-types-overview.md)  
   
